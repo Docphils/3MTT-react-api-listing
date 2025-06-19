@@ -54,14 +54,12 @@
     display: flex;
     width: inherit;
     padding: 10px;
-    justify-content: center;
 }
 .body .items {
     position: relative;
     display: grid;
     width: 90%;
     gap: 1rem;
-    margin-inline: auto;
     box-shadow: 1px 1px 50% #0d2d6d;
 }
 @media screen and (min-width: 500px) {
