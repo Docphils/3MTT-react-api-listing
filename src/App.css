@@ -58,10 +58,8 @@
 }
 .body .items {
     position: relative;
-    width: 90%;
     display: grid;
     gap: 1rem;
-    margin-inline: auto;
     box-shadow: 1px 1px 50% #0d2d6d;
 }
 @media screen and (min-width: 500px) {
