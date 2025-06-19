@@ -53,6 +53,7 @@
     position: relative;
     width: inherit;
     padding: 10px;
+    justify-content: center;
 }
 .body .items {
     position: relative;
