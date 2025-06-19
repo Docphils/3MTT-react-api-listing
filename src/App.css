@@ -52,9 +52,10 @@
 .body {
     position: relative;
     display: flex;
-    width: inherit;
+    width: 100%;
     padding: 10px;
     justify-content: center;
+    text-align: center;
 }
 .body .items {
     position: relative;
