@@ -109,6 +109,10 @@
     align-items: center;
     justify-content: space-between;
     margin-block: 50%;
+    opacity: 50%;
+}
+.imagesButtons:hover {
+    opacity: 100%;
 }
 .imagesButtons i:hover {
     cursor: pointer;
@@ -124,11 +128,11 @@
     font-size: large;
     font-weight: bold;
     text-align: start;
-    color: #0d2d6d;
+    color: #2865dd;
 }
 .itemCard .itemTitle:hover {
     cursor: pointer;
-    color: #2865dd;
+    color: #0d2d6d;
     text-decoration: underline;
 }
 .itemCard .itemDesc {
