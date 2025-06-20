@@ -4,9 +4,9 @@ import ImageSlider from "./ImageSlider";
 export default function ItemsList(items) {
     return (
         <div className='body'>
-            <ul className='items'>
+            <div className='items'>
                 {items.items.map((item) => (
-                    <li key={item.id} className='itemCard'>
+                    <div key={item.id} className='itemCard'>
                         <div className='images'>
                             <ImageSlider key={item.id} images={item.images} />
                         </div>
@@ -17,9 +17,9 @@ export default function ItemsList(items) {
                             <button className='add'>Add to cart</button>
                             <button className='buy'>Buy now</button>
                         </div>
-                    </li>
+                    </div>
                 ))}
-            </ul>
+            </div>
         </div>
     );
 }
