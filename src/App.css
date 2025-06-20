@@ -174,7 +174,7 @@
     border-width: 1px;
 }
 .itemCard .itemButtons button:first-child:hover {
-    color: white;
+    color: #fffff0;
     background-color: #0d2d6d;
     box-shadow: 1px 1px 10px #0d2d6d;
     cursor: pointer;
