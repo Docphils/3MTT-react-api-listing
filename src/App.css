@@ -51,15 +51,15 @@
 }
 .body {
     position: relative;
-    display: flex;
     width: inherit;
     padding: 10px;
 }
 .body .items {
     position: relative;
-    display: grid;
     width: 90%;
+    display: grid;
     gap: 1rem;
+    margin-inline: auto;
     box-shadow: 1px 1px 50% #0d2d6d;
 }
 @media screen and (min-width: 500px) {
@@ -76,7 +76,7 @@
     .body .items {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
-}
+} 
 .items li {
     list-style-type: none;
 }
@@ -103,7 +103,6 @@
 .imageSlider {
     position: relative;
 }
-<<<<<<< HEAD
 .imagesButtons {
     position: absolute;
     display: flex;
@@ -175,10 +174,8 @@
     border-width: 1px;
 }
 .itemCard .itemButtons button:first-child:hover {
-    color: #fffff0;
+    color: white;
     background-color: #0d2d6d;
     box-shadow: 1px 1px 10px #0d2d6d;
     cursor: pointer;
 }
-=======
->>>>>>> 69cd9ad41df7f547a1e048d9ea6835b7fe7b051b
