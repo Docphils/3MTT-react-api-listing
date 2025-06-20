@@ -51,15 +51,15 @@
 }
 .body {
     position: relative;
+    display: flex;
     width: inherit;
     padding: 10px;
 }
 .body .items {
     position: relative;
-    width: 90%;
     display: grid;
+    width: 90%;
     gap: 1rem;
-    margin-inline: auto;
     box-shadow: 1px 1px 50% #0d2d6d;
 }
 @media screen and (min-width: 500px) {
@@ -103,6 +103,7 @@
 .imageSlider {
     position: relative;
 }
+<<<<<<< HEAD
 .imagesButtons {
     position: absolute;
     display: flex;
@@ -179,3 +180,5 @@
     box-shadow: 1px 1px 10px #0d2d6d;
     cursor: pointer;
 }
+=======
+>>>>>>> 69cd9ad41df7f547a1e048d9ea6835b7fe7b051b
